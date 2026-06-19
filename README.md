@@ -20,17 +20,32 @@ A high-performance Full-Stack Django web application that processes large Excel 
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/AutoData_Eng/excel-splitter-django.git](https://github.com/AutoData_Eng/excel-splitter-django.git)
+   git clone [https://github.com/karimaldaamintech-del/excel-splitter-django.git](https://github.com/karimaldaamintech-del/excel-splitter-django.git)
+   ```
+   ```bash
    cd excel-splitter-django
-
+   ```
 
 2. Create & activate a virtual environment:
+   ```bash
    python -m venv venv
+   ```
+   ```bash
    source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+
+   
 
 3. Install Dependencies:
+   ```bash
     pip install -r requirements.txt
+    ```
 
 4. Run the server:
+   ```bash
     python manage.py runserver
+    ```
+
+
+
 
